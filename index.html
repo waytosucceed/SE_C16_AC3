@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Real-Life Applications of Fractions, Decimals, and Percentages</div>
+
+        <div class="lesson-content">
+          <p>
+            <b>Fractions</b>, <b>decimals</b>, and <b>percentages</b> are essential in daily life, simplifying calculations and decision-making. Here's a quick look at their applications:
+          </p>
+          <ul>
+            <li><b>Fractions</b> are used in cooking for measuring ingredients, in construction for precise measurements, and in time management to describe portions of hours.</li>
+            <li><b>Decimals</b> are crucial in finance for currency transactions, in science for precise measurements, and in sports statistics to represent players' performance with more accuracy.</li>
+            <li><b>Percentages</b> are widespread in shopping when calculating discounts, in finance to understand interest rates, and in statistics to represent demographic information or performance results.</li>
+          </ul>
+          <p>
+            Understanding these concepts helps in making informed decisions, whether budgeting money, measuring for a project, or analyzing data. Each form has its advantage in different scenarios, often interchanged to provide clarity and precision in various contexts.
+          </p>
+        </div>
+        
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

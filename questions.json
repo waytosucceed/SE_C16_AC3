@@ -1,0 +1,112 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "A shirt costs $20.00 and is discounted by 25%. If you have a 10% off coupon that applies after the initial discount, what is the final price?",
+    "options": [
+      "$13.50",
+      "$14.00",
+      "$14.50",
+      "$15.00"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q2",
+    "question": "If the decimal 0.625 is expressed as a simplified fraction <sup>x</sup>&frasl;<sub>y</sub> in its simplest form, what is x+y?",
+    "options": [
+      "13",
+      "29",
+      "37",
+      "41"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q3",
+    "question": "In a class of 200 students, 120 students scored above 75% in their final exams. What fraction of the class did not achieve this score?",
+    "options": [
+      "./assests/optionImg/5.jpg",
+      "./assests/optionImg/6.jpg",
+      "./assests/optionImg/7.jpg",
+      "./assests/optionImg/8.jpg"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q4",
+    "question": "Here are some numbers: 0.32, 0.45, 0.21, 0.54, 0.41, 0.27, 0.38. Adam arranges all the numbers in a line, so that the numbers increase from left to right. Which number appears in the middle of the sequence?",
+    "options": [
+      "0.32",
+      "0.41",
+      "0.38",
+      "0.27"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q5",
+    "question": "Which of these statements is/are correct? <br><img width='60%' src='./assests/images/1.png'>",
+    "options": [
+      "statement B only",
+      "statement C only",
+      "statements A and B only",
+      "statements A and C only"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q6",
+    "question": "What is the value of 0.75 added to the fraction equivalent of 37.5% and then multiplied by 2?",
+    "options": [
+      "3.0",
+      "2.25",
+      "1.5",
+      "3.75"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q7",
+    "question": "Which of these numbers is closest to <sup>3</sup>&frasl;<sub>5</sub>?",
+    "options": [
+      "0.599",
+      "0.62",
+      "0.58",
+      "0.605"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q8",
+    "question": "In a class of 40 students, 60% are boys. During a test, 25% of the boys and 40% of the girls scored above 90%. What percentage of the total students scored above 90%?",
+    "options": [
+      "22%",
+      "28%",
+      "33%",
+      "35%"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q9",
+    "question": "To prepare a certain dish, you need to use 5 parts rice and 3 parts vegetables. What percentage of the mixture consists of rice, and what percentage consists of vegetables?",
+    "options": [
+      "Rice: 62.5%, Vegetables: 37.5%",
+      "Rice: 60%, Vegetables: 40%",
+      "Rice: 66.7%, Vegetables: 33.3%",
+      "Rice: 58.3%, Vegetables: 41.7%"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q10",
+    "question": "The sum of two fractions is <sup>3</sup>&frasl;<sub>5</sub>. If one of the fractions is <sup>7</sup>&frasl;<sub>12</sub>, what is the difference between the two fractions?",
+    "options": [
+      "./assests/optionImg/9.jpg",
+      "./assests/optionImg/10.jpg",
+      "./assests/optionImg/11.jpg",
+      "./assests/optionImg/12.jpg"
+    ],
+    "correct": 2
+  }
+]
